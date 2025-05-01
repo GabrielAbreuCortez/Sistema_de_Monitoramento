@@ -1,3 +1,6 @@
+![Logo do Projeto](projeto1/imagens/banner.png)
+
+
 # 📡 Sistema de Monitoramento 💻
 
 ## Sistema de monitoramento de Temperatura e Tensão
