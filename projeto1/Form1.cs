@@ -21,7 +21,7 @@ namespace projeto1
             pictureBox1.Image = Image.FromFile("c:\\imagens\\Vermelho.bmp");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            pictureBox2.Image = Image.FromFile("c:\\imagens\\Vermelho.bmp");
+            pictureBox2.Image = Image.FromFile("c:\\imagens\\ledOff.bmp");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
 
             pictureBox3.Image = Image.FromFile("c:\\imagens\\iconeArduino.png");
@@ -96,7 +96,8 @@ namespace projeto1
 
                 serialPort1.WriteLine(estadoLED ? "L" : "D");
 
-                pictureBox2.Image = Image.FromFile(estadoLED ? "c:\\imagens\\Verde.bmp" : "c:\\imagens\\Vermelho.bmp");
+                pictureBox2.Image = Image.FromFile(estadoLED ? "c:\\imagens\\ledOn.bmp" : "c:\\imagens\\ledOff.bmp");
+                pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
                 button2.Text = estadoLED ? "Desligar" : "Ligar";
             }
         }
