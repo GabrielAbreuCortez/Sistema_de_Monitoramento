@@ -2,7 +2,7 @@
 
 # 📡 Sistema de Monitoramento 💻
 
-### São gerados dados através de uma placa Arduino, depois os dados lidos e apresentados por uma aplicação desenvolvida em C#
+### São gerados dados através de uma placa Arduino, depois os dados lidos e apresentados por uma aplicação desenvolvida em C#.
 
 ### Requisitos adicionais:
 - Placa Arduino;
