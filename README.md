@@ -1,4 +1,4 @@
-# Sistema de Monitoramento
+# 📡 Sistema de Monitoramento 💻
 
 ## Sistema de monitoramento de Temperatura e Tensão
 
