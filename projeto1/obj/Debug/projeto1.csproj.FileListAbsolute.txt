@@ -59,9 +59,6 @@ C:\Users\gabri\Desktop\github\Nova pasta\projetoTony\projeto1\obj\Debug\projeto1
 C:\Users\gabri\Desktop\github\Nova pasta\projetoTony\projeto1\obj\Debug\projeto1.csproj.Up2Date
 C:\Users\gabri\Desktop\github\Nova pasta\projetoTony\projeto1\obj\Debug\projeto1.exe
 C:\Users\gabri\Desktop\github\Nova pasta\projetoTony\projeto1\obj\Debug\projeto1.pdb
-C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\bin\Debug\projeto1.exe.config
-C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\bin\Debug\projeto1.exe
-C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\bin\Debug\projeto1.pdb
 C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\bin\Debug\AGauge.dll
 C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\bin\Debug\ThermometerControl.dll
 C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\obj\Debug\projeto1.csproj.AssemblyReference.cache
@@ -70,5 +67,8 @@ C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\pro
 C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\obj\Debug\projeto1.csproj.GenerateResource.cache
 C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\obj\Debug\projeto1.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\obj\Debug\projeto1.csproj.Up2Date
-C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\obj\Debug\projeto1.exe
-C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\obj\Debug\projeto1.pdb
+C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\bin\Debug\Sistema de Monitoramento.exe.config
+C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\bin\Debug\Sistema de Monitoramento.exe
+C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\bin\Debug\Sistema de Monitoramento.pdb
+C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\obj\Debug\Sistema de Monitoramento.exe
+C:\Users\Usuario\Desktop\github\github Profissional\Sistema_de_Monitoramento\projeto1\obj\Debug\Sistema de Monitoramento.pdb

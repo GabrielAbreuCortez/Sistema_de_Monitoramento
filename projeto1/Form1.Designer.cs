@@ -37,6 +37,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,13 +50,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label6 = new System.Windows.Forms.Label();
             this.aGauge1 = new System.Windows.Forms.AGauge();
             this.thermControl1 = new ThermometerControl.ThermControl();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -88,16 +88,36 @@
             this.tabPage1.Controls.Add(this.comboBox1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(790, 426);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "CONEXÃO";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(54, 336);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(125, 29);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "ESTADO:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(53, 256);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(284, 29);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "SELECIONE A PORTA:";
+            // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(304, 88);
+            this.pictureBox3.Location = new System.Drawing.Point(304, 83);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(154, 121);
+            this.pictureBox3.Size = new System.Drawing.Size(176, 139);
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
             // 
@@ -161,7 +181,7 @@
             this.tabPage2.Controls.Add(this.button2);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(790, 426);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "LED";
@@ -208,6 +228,16 @@
             this.tabPage3.Size = new System.Drawing.Size(790, 426);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "SENSORES";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(257, 22);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(201, 37);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "SENSORES";
             // 
             // aGauge1
             // 
@@ -257,7 +287,7 @@
             this.aGauge1.GaugeRanges.Add(aGaugeRange3);
             this.aGauge1.GaugeRanges.Add(aGaugeRange4);
             this.aGauge1.Location = new System.Drawing.Point(355, 85);
-            this.aGauge1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.aGauge1.Margin = new System.Windows.Forms.Padding(2);
             this.aGauge1.MaxValue = 100F;
             this.aGauge1.MinValue = 0F;
             this.aGauge1.Name = "aGauge1";
@@ -310,36 +340,6 @@
             this.timer1.Enabled = true;
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(53, 256);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(284, 29);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "SELECIONE A PORTA:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(54, 336);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(125, 29);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "ESTADO:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(257, 22);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(201, 37);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "SENSORES";
             // 
             // Form1
             // 
