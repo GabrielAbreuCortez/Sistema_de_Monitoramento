@@ -4,7 +4,7 @@
 
 ### São gerados dados através de uma placa Arduino, depois os dados lidos e apresentados por uma aplicação desenvolvida em C#.
 
-### Requisitos adicionais:
+### Requisitos adicionais para o funcionamento:
 - Placa Arduino;
 - placa ou circuito com sensor de temperatura (tipo DHT11) e potenciômetro;
 
