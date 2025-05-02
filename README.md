@@ -1,9 +1,17 @@
+![Logo do Projeto](projeto1/imagens/banner.png)
+
 # 📡 Sistema de Monitoramento 💻
 
-## Sistema de monitoramento de Temperatura e Tensão
+### São gerados dados através de uma placa Arduino, depois os dados lidos e apresentados por uma aplicação desenvolvida em C#.
 
-### Os dados são gerados através de uma placa Arduino, depois os dados lidos e apresentados por uma aplicação desenvolvida em C#
+### Requisitos adicionais:
+- Placa Arduino;
+- placa ou circuito com sensor de temperatura (tipo DHT11) e potenciômetro;
 
-### Requisitos:
-- Placa Arduino
-- Firmware disponibilizado no repositório
+## Instruções de instalacão do aplicativo
+- Abra a pasta "instalador";
+- Execute o arquivo "setup";
+- Clique em avançar;
+- Selecione o local que será instalado e clique em avançar;
+- Clique em avançar novamente e aguarde a instalação;
+- Por fim clique em fechar e o aplicativo estará instalado;
