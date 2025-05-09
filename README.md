@@ -1,4 +1,4 @@
-![Logo do Projeto](banner/banner.png)
+!(banner/banner.png)
 
 # 📡 Sistema de Monitoramento 💻
 
